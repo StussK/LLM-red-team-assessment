@@ -147,7 +147,7 @@ Claude Opus 5 demonstrates exceptional resilience against known LLM attack vecto
 
 ---
 
-**Report Generated:** October 07, 2026
+**Report Generated:** October, 2026
 **Assessment Tool:** NVIDIA Garak v0.17.0
 **Model:** Anthropic Claude 3.5 Sonnet
 **Framework:** OWASP LLM Top 10
