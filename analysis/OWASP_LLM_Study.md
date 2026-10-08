@@ -62,7 +62,7 @@
 
 ---
 
-## Study Notes (add as you learn)
+## Study Notes
 - [ ] Which vulnerability is easiest to test?
 - [ ] Which one is hardest to prevent?
 - [ ] Which ones apply to free LLMs like Claude?
