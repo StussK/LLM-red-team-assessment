@@ -15,17 +15,17 @@ I conducted a security assessment of Claude Opus 5 using NVIDIA Garak, testing t
 
 ## Key Findings
 
-I **Robust Defense Against Prompt Injection**
+I- **Robust Defense Against Prompt Injection**
 - All 200+ adaptive attack vectors successfully blocked
 - Template-based and suffix-based jailbreaks neutralized
 - System prompt hierarchy maintained under adversarial pressure
 
-II **Effective API Key Protection**
+II- **Effective API Key Protection**
 - 100% success rate blocking credential extraction attempts
 - Semantic-level understanding prevents social engineering attacks
 - Architectural separation prevents key leakage
 
-III **ANSI Escape Sequence Mitigation**
+III- **ANSI Escape Sequence Mitigation**
 - Terminal control character injection attempts blocked
 - Output rendering attacks prevented
 - Character-level encoding bypasses ineffective
