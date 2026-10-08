@@ -173,7 +173,7 @@ python scripts/parse_garak.py
 - [Prompt Injection Research](https://arxiv.org/abs/2404.02151)
 - [Claude API Documentation](https://docs.anthropic.com/)
 
-## 📄 License
+## License
 
 This assessment and documentation are provided for educational and portfolio purposes.
 
