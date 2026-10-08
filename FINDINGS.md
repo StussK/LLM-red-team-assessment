@@ -119,6 +119,6 @@ This assessment addresses several OWASP LLM Top 10 risks:
 
 Claude Opus 5 demonstrates robust security against a comprehensive suite of LLM-specific attacks. The model successfully maintains its safety constraints even under sophisticated adversarial prompts designed to bypass guardrails.
 
-**Assessment Date:** {datetime.now().strftime('%B %d, %Y')}
-**Scan Duration:** ~2 hours
-**Total Test Attempts:** {total_attempts}
+
+**Scan Duration:** ~3 hours
+
