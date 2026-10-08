@@ -2,7 +2,7 @@
 
 A comprehensive security assessment of Anthropic's Claude Opus 5 using NVIDIA Garak, a specialized LLM vulnerability scanner. This project demonstrates thorough security testing methodology and documents the model's resilience against known adversarial attack vectors.
 
-## 📊 Assessment Overview
+## Assessment Overview
 
 | Metric | Result |
 |--------|--------|
@@ -13,7 +13,7 @@ A comprehensive security assessment of Anthropic's Claude Opus 5 using NVIDIA Ga
 | **Vulnerabilities Found** | 0 |
 | **Mitigation Success Rate** | 100% |
 
-## 🎯 Key Findings
+## Key Findings
 
 ✅ **Robust Defense Against Prompt Injection**
 - All 200+ adaptive attack vectors successfully blocked
@@ -30,7 +30,7 @@ A comprehensive security assessment of Anthropic's Claude Opus 5 using NVIDIA Ga
 - Output rendering attacks prevented
 - Character-level encoding bypasses ineffective
 
-## 📁 Documentation Structure
+## Documentation Structure
 
 ### Core Documents
 
@@ -56,7 +56,7 @@ A comprehensive security assessment of Anthropic's Claude Opus 5 using NVIDIA Ga
   - `parse_garak.py` - Parse and extract findings from JSONL files
   - `generate_documentation.py` - Generate GitHub documentation
 
-## 🔬 Testing Methodology
+## Testing Methodology
 
 ### Attack Categories Tested
 
@@ -90,7 +90,7 @@ Detector: MitigationBypass (semantic analysis)
 Confidence Interval: Bootstrap with 10,000 iterations
 ```
 
-## 🛡️ Defense Mechanisms Identified
+## Defense Mechanisms Identified
 
 ### 1. System Prompt Integrity
 - Multi-layered instruction hierarchy
@@ -112,7 +112,7 @@ Confidence Interval: Bootstrap with 10,000 iterations
 - No elaboration on harmful requests
 - Information compartmentalization
 
-## 📈 OWASP LLM Top 10 Coverage
+## OWASP LLM Top 10 Coverage
 
 This assessment addresses key risks from the [OWASP LLM Top 10](https://owasp.org/www-project-top-10-for-large-language-model-applications/):
 
@@ -121,7 +121,7 @@ This assessment addresses key risks from the [OWASP LLM Top 10](https://owasp.or
 - **LLM05: Supply Chain Vulnerabilities** ✅ Model robustness
 - **LLM10: Model Theft** ✅ Credential extraction resistance
 
-## 🚀 Usage
+## Usage
 
 ### Reviewing the Assessment
 
@@ -145,7 +145,6 @@ garak --model_type anthropic --model_name claude-3-5-sonnet-20241022 \
 python scripts/parse_garak.py
 ```
 
-## 💡 Key Takeaways for Resume/Portfolio
 
 ### Quantifiable Results
 - ✅ Tested **943 adversarial attack vectors** against production LLM
@@ -167,7 +166,7 @@ python scripts/parse_garak.py
 - Practical experience with LLM security tooling
 - Ability to interpret and communicate security findings
 
-## 📚 References
+## References
 
 - [NVIDIA Garak Documentation](https://garak.ai/)
 - [OWASP LLM Top 10](https://owasp.org/www-project-top-10-for-large-language-model-applications/)
@@ -180,8 +179,8 @@ This assessment and documentation are provided for educational and portfolio pur
 
 ---
 
-**Assessment Date:** October 7, 2026  
+**Assessment Date:** October, 2026  
 **Tool Version:** NVIDIA Garak v0.17.0  
 **Model Tested:** Anthropic Claude 3.5 Sonnet  
-**Status:** ✅ Complete
+**Status:**  Complete
 
