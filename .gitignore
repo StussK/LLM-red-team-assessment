@@ -1,0 +1,40 @@
+# API Keys & Secrets
+.env
+.env.local
+ANTHROPIC_API_KEY
+*.key
+*.pem
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+venv/
+env/
+.Python
+*.egg
+
+# IDE & Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-*
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+garak.log
+
+# Garak cache (local results)
+.local/share/garak/
+
+# Temporary files
+*.tmp
+*.temp
