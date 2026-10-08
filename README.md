@@ -1,6 +1,6 @@
 # Claude Opus 5 Security Assessment: Garak Vulnerability Testing
 
-A comprehensive security assessment of Anthropic's Claude Opus 5 using NVIDIA Garak, a specialized LLM vulnerability scanner. This project demonstrates thorough security testing methodology and documents the model's resilience against known adversarial attack vectors.
+I conducted a security assessment of Claude Opus 5 using NVIDIA Garak, testing the model against 943 adversarial attack vectors spanning prompt injection, jailbreaks, and credential extraction. This project documents the findings and analyzes the defense mechanisms that enable the model's resilience against known LLM threats.
 
 ## Assessment Overview
 
